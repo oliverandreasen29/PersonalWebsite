@@ -66,12 +66,6 @@ li a{
     margin-right: 3rem;
 }
 
-@media (max-width: 800px){
-    .aboutTextDivider{
-        flex: 0;
-    }
-}
-
 .mePhoto{
     border: 10px solid rgba(255, 0, 0, 1);
     border-radius: 20px;
@@ -79,6 +73,12 @@ li a{
     max-height: 60vh;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+@media (max-width: 1000px){
+    .mePhoto{
+        display: none;
+    }
 }
 
 
